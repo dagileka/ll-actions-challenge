@@ -2,7 +2,8 @@ name: Artifact
 
 on: push
 
-env:  ARTIFACT_NAME: myartifact
+env:  
+  ARTIFACT_NAME: myartifact
 
 jobs:
   main:
